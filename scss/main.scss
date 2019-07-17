@@ -5,10 +5,16 @@ body {
 		"Droid Sans", "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	argin: 0;
+	margin: 0 auto;
 	background-color: $badass;
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#root {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
