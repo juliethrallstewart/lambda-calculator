@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { specials } from '../../../data.js';
 
-const SpecialButton = ({ special }) => {
+const SpecialButton = ({ special, setSpecialsArr }) => {
 	return (
-		<button>
+		<button onClick={() => setSpecialsArr(special)}>
 			{special}
 			{/* Display a button element rendering the data being passed down from the parent container on props */}
 		</button>
