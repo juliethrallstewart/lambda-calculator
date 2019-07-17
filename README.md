@@ -129,7 +129,12 @@ $npm i node-sass (could have done globally)
 
 - install script:
 
+- where I want it
 "scss": "node-sass --include-path scss scss/main.scss public/css/main.css"
+
+- what I had to use so far: 
+"scss": "node-sass --include-path scss scss/main.scss src/index.css"
+
 
 - each time you want to compile run:
 
