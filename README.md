@@ -143,3 +143,7 @@ $npm run scss
 ### Codepen solution code for styling reference 
 
 https://codesandbox.io/embed/patient-wind-rqm4b
+
+### Henry Blevins Solution Code
+
+https://github.com/Blevs/lambda-calculator
