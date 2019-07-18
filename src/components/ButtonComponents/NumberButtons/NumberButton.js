@@ -13,4 +13,5 @@ const NumberButton = ({ number, buttonClass }) => {
 	);
   };
   
-  export default NumberButton;
+	export default NumberButton;
+	

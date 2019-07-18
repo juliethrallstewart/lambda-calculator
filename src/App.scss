@@ -1,5 +1,16 @@
-@import 'variables';
-@import 'mixins';
+@import 'variables.scss';
+@import 'mixins.scss';
+@import './index';
+
+body {
+	margin: 0 auto;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
 
 .container {
 	background-color: $calc-base-color;
