@@ -9,16 +9,15 @@ import SpecialButton from './SpecialButton.js';
 const Specials = () => {
 	// STEP 2 - add the imported data to state
 	const [
-		specialsArr,
-		setSpecialsArr
+		specialsState
 	] = useState(specials);
 
 	return (
-		<div>
+		<div className="specials">
 			{/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
-       it any props needed by the child component*/}
-			{specialsArr.map((special) => <SpecialButton key={special} special={special} />)}
+       it any props needed by the child component*/
+			specialsState.map((special, index) => <SpecialButton key={index} special={special} />)}
 		</div>
 	);
 };

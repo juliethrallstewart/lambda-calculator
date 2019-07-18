@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 //import operators from './components/ButtonComponents/OperatorButtons/OperatorButton.js';
 //import specials from './components/ButtonComponents/SpecialButtons/SpecialButton.js';
@@ -8,7 +8,7 @@ import './App.css';
 
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from './components/DisplayComponents/Logo';
-//import Display from './components/DisplayComponents/Display.js';
+import Display from './components/DisplayComponents/Display.js';
 import Numbers from './components/ButtonComponents/NumberButtons/Numbers.js';
 import Specials from './components/ButtonComponents/SpecialButtons/Specials';
 import Operators from './components/ButtonComponents/OperatorButtons/Operators.js';
@@ -25,6 +25,7 @@ function App () {
 			<Logo />
 			<div className="App">
 				{/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+				<Display />
 				<Numbers />
 				<Operators />
 				<Specials />
