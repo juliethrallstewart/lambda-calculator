@@ -1,11 +1,14 @@
 import React from 'react';
 
-const OperatorButton = ({ operator, operatorsArr, setOperatorsArr }) => {
+const OperatorButton = ({ operator }) => {
 	return (
-		<button onClick={() => setOperatorsArr(operator.char)}>
+        <>
+              {/* Display a button element rendering the data being passed down from the parent container on props */}
+
+		<button className="button operator" onClick={() => console.log('operator button clicked')}>
 			{operator.char}
-			{/* Display a button element rendering the data being passed down from the parent container on props */}
 		</button>
+        </>
 	);
 };
 
