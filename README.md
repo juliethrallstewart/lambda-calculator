@@ -121,3 +121,29 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 - Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
 - Add some icons to improve the operator characters aesthetics. Research any icon/font library and implement it into your project.
 - Convert your CSS styling to use Sass/Scss
+
+
+### Installed node-sass scss
+
+$npm i node-sass (could have done globally)
+
+- install script:
+
+- where I want it
+"scss": "node-sass --include-path scss scss/main.scss public/css/main.css"
+
+- what I had to use so far: 
+"scss": "node-sass --include-path scss scss/main.scss src/index.css"
+
+
+- each time you want to compile run:
+
+$npm run scss
+
+### Codepen solution code for styling reference 
+
+https://codesandbox.io/embed/patient-wind-rqm4b
+
+### Henry Blevins Solution Code
+
+https://github.com/Blevs/lambda-calculator
